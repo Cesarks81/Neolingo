@@ -3,7 +3,7 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),  
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)),  
     url("imagenes/fondo.jpeg") no-repeat center/cover;
 }
 
@@ -13,7 +13,8 @@ header {
     height: 120px;
     display: flex;
     align-items: center;
-    margin-bottom: 500px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .cabecera {
@@ -56,15 +57,37 @@ header {
     margin-right: 20px;
 }
 
-section{
+section {
     display: flex;
-    background-color: #15569E;
     color: #ffff;
 }
-article{
+
+article {
     margin: 20px;
     display: inline-block;
 }
+
 article img {
     width: 40px;
+}
+
+.titulo {
+    float: left;
+    font-size: 70px;
+    width: 50%;
+    font-weight: 600;
+    color: rgb(1, 60, 150);
+}
+
+.subtitulo {
+    float: left;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(1, 60, 150);
+    width: 100%;
+}
+
+.secciones {
+    background-color: rgb(1, 60, 150);
 }
