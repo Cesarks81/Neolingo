@@ -3,8 +3,8 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)),  
-    url("imagenes/fondo.jpeg") no-repeat center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)),
+    url("imagenes/fondo.jpeg") center/cover;
 }
 
 header {
@@ -15,6 +15,18 @@ header {
     align-items: center;
     border-radius: 10px;
     margin: 10px;
+}
+
+main{
+    margin-bottom: 10px;
+}
+
+footer{
+    background:rgba(255, 255, 255, 0.8);
+}
+
+p{
+    margin-bottom: 0px;
 }
 
 .cabecera {
@@ -57,6 +69,10 @@ header {
     margin-right: 20px;
 }
 
+.entrante{
+    margin-bottom: 350px;
+}
+
 section {
     display: flex;
     color: #ffff;
@@ -64,7 +80,16 @@ section {
 
 article {
     margin: 20px;
-    display: inline-block;
+}
+
+.secciones article{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+article p{
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
 article img {
